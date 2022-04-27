@@ -26,7 +26,7 @@ function App() {
         <Features />
         <Work />
         <About
-          title="Courses Taken"
+          title="My Latest Courses"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
           posuere nunc. Morbi rutrum tortor mi, a vulputate nisi finibus in.
           Nullam fermentum, ipsum vitae tristique tincidunt, metus metus sodales

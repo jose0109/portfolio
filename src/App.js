@@ -12,29 +12,31 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <About
-        title="Hi, I'm Jose"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
+    <div className="wrapper">
+      <div className="App">
+        <Navbar />
+        <Hero />
+        <About
+          title="Hi, I'm Jose"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
           posuere nunc. Morbi rutrum tortor mi, a vulputate nisi finibus in.
           Nullam fermentum, ipsum vitae tristique tincidunt, metus metus sodales
           elit, ac viverra justo sem sit amet quam."
-      />
-      <Features />
-      <Work />
-      <About
-        title="Courses Taken"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
+        />
+        <Features />
+        <Work />
+        <About
+          title="Courses Taken"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
           posuere nunc. Morbi rutrum tortor mi, a vulputate nisi finibus in.
           Nullam fermentum, ipsum vitae tristique tincidunt, metus metus sodales
           elit, ac viverra justo sem sit amet quam."
-      />
-      <Courses />
-      <Testimonials />
-      <CTA />
-      <Footer />
+        />
+        <Courses />
+        <Testimonials />
+        <CTA />
+        <Footer />
+      </div>
     </div>
   );
 }

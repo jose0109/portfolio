@@ -1,55 +1,56 @@
 .wrapper {
-    background-color: #332FD0;
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -4rem;
+  z-index: 10;
 }
 .cta {
-    background-color: #122350;
-    display: flex;  
-    justify-content: space-around;
-    align-items: center;
-    padding: 2rem 2rem;
-    border-radius: 30px;
-    color: white;
-    width: 70%;
-    margin-top: -6rem;
+  background-color: #122350;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 2rem;
+  border-radius: 30px;
+  color: white;
+  width: 70%;
+  margin-top: -6rem;
 }
 
 .cta h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .cta > p {
-    margin: 0 1rem;
-    width: 40%;
+  margin: 0 1rem;
+  width: 40%;
 }
 
 @media screen and (max-width: 1150px) {
+}
 
+@media screen and (max-width: 750px) {
+  .cta {
+    width: 100%;
+    border-radius: 0;
+  }
+  .cta h2 {
+    font-size: 1.5rem;
   }
 
-  @media screen and (max-width: 750px) {
-    .cta {
-        width: 100%;
-        border-radius: 0;
-    }
-    .cta h2 {
-        font-size: 1.5rem;
-    }
-    
-    .cta > p {
-        font-size: 1.25rem;
-    }
+  .cta > p {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cta {
+    flex-direction: column;
   }
 
-@media screen and (max-width:550px) {
-    .cta {
-        flex-direction: column;
-    }
-
-    .cta > p {
-        margin-bottom: 1rem;
-        width: 70%;
-    }
+  .cta > p {
+    margin-bottom: 1rem;
+    width: 70%;
+  }
 }

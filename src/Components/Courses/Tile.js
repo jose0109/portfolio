@@ -17,7 +17,7 @@ const Tile = (props) => {
         <p>{props.status}</p>
       </div>
       <div className={styles.link}>
-          <a href={props.link}>
+          <a href={props.link} target="_blank">
             <div><i class="bx bx-right-top-arrow-circle"></i></div>
             <div>{props.linkText}</div>
           </a>

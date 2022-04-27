@@ -7,7 +7,7 @@ const Contact = () => {
     <div className={styles.footer}>
       <div className={styles.logo}>JDM</div>
       <div className={styles.slogan}>
-        Living, learning, & leveling up one day at a time.
+    
       </div>
       <div className={styles.social}>
         <SocialIcon

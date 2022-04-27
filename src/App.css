@@ -2,11 +2,16 @@
   text-align: center;
   letter-spacing: 1px;
   max-width: 1440px;
+  margin: auto;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.wrapper {
+  position: relative;
 }
 
 @media (prefers-reduced-motion: no-preference) {

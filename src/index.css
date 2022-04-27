@@ -1,23 +1,13 @@
 @font-face {
-  font-family: "Eurostyle";
-  src: local("Eurostyle"),
-    url("./fonts/Eurostyle.ttf") format(truetype);
-  font-weight: regular;
-   /* other formats include: 'woff' 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
+  font-family: "Eurostile";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Eurostile"), url("./fonts/eurostile.woff") format("woff");
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; 
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Eurostile", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-

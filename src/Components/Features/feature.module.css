@@ -1,5 +1,6 @@
 .feature {
   display: flex;
+  position: relative;
   flex-direction: column;
   padding: 2rem 2rem;
 }
@@ -23,21 +24,20 @@
 }
 
 .subtitle {
-    font-size: 1.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .description {
-    color: #141c3a;
-    font-weight: normal;
-    font-size: 1.25rem;
-    line-height: 25px;
-    letter-spacing: 1px;
+  color: #141c3a;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 25px;
+  letter-spacing: 1px;
 }
 
-@media screen and (max-width:550px) {
-
+@media screen and (max-width: 550px) {
   .icon {
     margin: 0 0 1rem 0;
     font-size: 3rem;
@@ -54,4 +54,3 @@
     font-size: 1rem;
   }
 }
-

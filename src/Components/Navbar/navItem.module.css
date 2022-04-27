@@ -1,0 +1,7 @@
+.navbar-item {
+    background-color: transparent;
+}
+
+.navbar-item:hover{
+    color: #332FD0;
+}

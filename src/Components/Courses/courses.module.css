@@ -1,0 +1,9 @@
+.courses {
+  margin: -6rem 2rem 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 4rem;
+  justify-content: center;
+  border-bottom: 1px solid #e6ecf8;
+}

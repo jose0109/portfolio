@@ -1,0 +1,57 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+}
+
+.icon {
+  font-size: 4rem;
+  font-weight: lighter;
+  opacity: 1;
+  color: #332fd0;
+  margin: 2rem 0;
+}
+
+.subtitle {
+  color: #332fd0;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.description {
+    color: #141c3a;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:550px) {
+
+  .icon {
+    margin: 0 0 1rem 0;
+    font-size: 3rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+

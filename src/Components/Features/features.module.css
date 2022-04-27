@@ -1,0 +1,28 @@
+.features {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e6ecf8;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin: -8rem 4rem 2rem 4rem;
+}
+.features > div {
+  border-right: 1px solid #e6ecf8;
+}
+.features > div:last-child {
+  border: none;
+}
+
+@media screen and (max-width: 800px) {
+  .features {
+    flex-direction: column;
+    max-width: 100%;
+    margin-left:2rem;
+    margin-right: 2rem;
+  }
+
+  .features > div {
+    border-right: none;
+    border-bottom: 1px solid #e6ecf8;
+  }
+}

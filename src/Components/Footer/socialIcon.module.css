@@ -1,0 +1,10 @@
+.icon {
+    border-radius: 50%;
+    font-size: 3rem;
+    color: #122350;
+    padding-top: 0.1rem;
+}
+
+.icon:hover {
+    color: white;
+}

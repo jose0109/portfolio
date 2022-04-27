@@ -4,7 +4,7 @@
   font-size: 1.5rem;
 }
 
-.work p {
+.work > p {
   margin: 0 1rem;
 }
 .cards {
@@ -24,9 +24,6 @@
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 675px) {
   
-.work {
-  margin-top: 44rem;
-}
 
   .cards {
     margin: 2rem 2rem;
@@ -38,5 +35,11 @@
 
   .work p {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .work {
+    margin-top: 44rem;
   }
 }

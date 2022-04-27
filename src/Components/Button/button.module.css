@@ -3,12 +3,17 @@ a {
   text-decoration: none;
 }
 .button {
-  padding: 1rem 1.5rem;
+  padding:1rem;
   border: 1px solid #332fd0;
   color: #332fd0;
   border-radius: 40px;
   font-size: 1.1rem;
   transition: all 500ms ease;
+  width: fit-content;
+}
+
+.button > p{
+  margin: 0;
 }
 
 .button:hover {

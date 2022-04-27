@@ -8,7 +8,7 @@ const Card = (props) => {
         <img src={props.backgroundImage}></img>
         <div className={styles['card__inner']}>
             <p>{props.text}</p>
-            <Button color='white' text='Visit Website'link={props.link}/>
+            <Button color='white' text={props.buttonText} link={props.link}/>
         </div>
     </div>
   )

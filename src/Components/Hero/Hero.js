@@ -10,7 +10,7 @@ const Hero = () => {
             <h1>Front-end Web Developer</h1>
         </div>
         <div className={styles['hero__description']}>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna.</h3>
+            <h3>I provide coding solutions tailored to your business needs.</h3>
         </div>  
         <div className={styles['hero__avatar']}>
             <img src={avatar}></img>

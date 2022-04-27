@@ -17,20 +17,14 @@ function App() {
         <Navbar />
         <Hero />
         <About
-          title="Hi, I'm Jose"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
-          posuere nunc. Morbi rutrum tortor mi, a vulputate nisi finibus in.
-          Nullam fermentum, ipsum vitae tristique tincidunt, metus metus sodales
-          elit, ac viverra justo sem sit amet quam."
+          title="Hi, it's Jose here"
+          content="I'm a freelance front-end web developer, I really enjoy programming user interfaces and I try to learn something new every day, I always try to put in practice what I learn since I consider it's the best way to continuously improve my skills."
         />
         <Features />
         <Work />
         <About
           title="My Latest Courses"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
-          posuere nunc. Morbi rutrum tortor mi, a vulputate nisi finibus in.
-          Nullam fermentum, ipsum vitae tristique tincidunt, metus metus sodales
-          elit, ac viverra justo sem sit amet quam."
+          content="These are among the latest courses I've taken, I try to keep myself busy all the time, specially given that there's always something new to learn in web development."
         />
         <Courses />
         <Testimonials />

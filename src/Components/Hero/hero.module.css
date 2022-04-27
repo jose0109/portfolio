@@ -44,7 +44,7 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .hero__title h1 {
     font-size: 3rem;
   }

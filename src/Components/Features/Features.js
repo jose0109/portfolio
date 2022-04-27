@@ -3,23 +3,36 @@ import Feature from "./Feature";
 import styles from "./features.module.css";
 
 const Features = () => {
-  const devTools = [
-    "Atom",
-    "Bitbucket",
+  const frontTools = [
+    "VSCode",
     "Bootstrap",
-    "Bulma",
-    "Codekit",
     "Codepen",
     "Github",
-    "Gitlab",
     "Terminal",
   ];
+  const backTools = [
+    "VSCode",
+    "MySQL",
+    "Django",
+    "Github",
+  ];
 
-  const devToolsList = devTools.map((item) => <div>{item}</div>);
+  const personalSkills = [
+    "Teamwork",
+    "Problem Solving",
+    "Leadership",
+    "Adaptability",
+    "Decision Making",
+  ];
+
+  const frontToolsList = frontTools.map((item) => <div>{item}</div>);
+  const backToolsList = backTools.map((item) => <div>{item}</div>);
+  const personalSkillsList = personalSkills.map((item) => <div>{item}</div>);
+
   const icons = [
     <i class="bx bx-code-block"></i>,
-    <i class="bx bx-code-block"></i>,
-    <i class="bx bx-code-block"></i>,
+    <i class='bx bx-user'></i>,
+    <i class='bx bx-code'></i>,
   ];
 
   return (
@@ -27,29 +40,29 @@ const Features = () => {
       <Feature
         icon={icons[0]}
         title="Front-End Web Developer"
-        mainDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet posuere nunc. Morbi rutrum tortor mi, a vulputate nisi finibus in."
+        mainDescription="I prefer to start coding from zero, this way I can provide a highly-personalized result tailored to the client needs. "
         firstSubtitle="My Languages"
-        firstDescription="HTML, CSS, JS, Bootstrap, ReactJS"
+        firstDescription="HTML, CSS, JS, ReactJS"
         secSubtitle="Dev Tools"
-        secDescription={devToolsList}
+        secDescription={frontToolsList}
       />
       <Feature
         icon={icons[1]}
-        title="Front-End Web Developer"
-        mainDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet posuere nunc. Morbi rutrum tortor mi, a vulputate nisi finibus in."
-        firstSubtitle="My Languages"
-        firstDescription="HTML, CSS, JS, Bootstrap, ReactJS"
-        secSubtitle="Dev Tools"
-        secDescription={devToolsList}
+        title="Personal Skills"
+        mainDescription="I'm a very commited person, I try to do my best whenever I'm working on something both personally or professionally."
+        // firstSubtitle="Soft Skills"
+        // firstDescription="HTML, CSS, JS, Bootstrap, ReactJS"
+        secSubtitle="Soft Skills"
+        secDescription={personalSkillsList}
       />
       <Feature
       icon={icons[2]}
-        title="Front-End Web Developer"
-        mainDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet posuere nunc. Morbi rutrum tortor mi, a vulputate nisi finibus in."
+        title="Back-End Web Developer"
+        mainDescription="Even though it's not my main focus, I have developed some small personal full stack projects, using Django as back-end technology."
         firstSubtitle="My Languages"
-        firstDescription="HTML, CSS, JS, Bootstrap, ReactJS"
+        firstDescription="Python & Django"
         secSubtitle="Dev Tools"
-        secDescription={devToolsList}
+        secDescription={backToolsList}
       />
     </div>
   );

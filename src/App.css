@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  font-family: "Eurostyle";
   letter-spacing: 1px;
+  max-width: 1440px;
 }
 
 .App-logo {
